@@ -19,7 +19,6 @@ while (distance > 10)
         friend = 1;
     }
     distance = distance - (firstFriendSpeed + secondFriendSpeed) * time;
-    count = count + 1;
+    count++;
 }
-Console.Write("Собака пробежит раз = ");
-Console.WriteLine(count);
+Console.Write($"Собака пробежит {count} раз!");

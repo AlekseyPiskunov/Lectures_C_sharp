@@ -39,6 +39,7 @@ int IndexOf(int[] collection, int find)
     return position;
 }
 // Будет искать индекс 
+
 int[] array = new int[10]; // Создал массив с 10-ю элементами.
 
 FillArray(array);
